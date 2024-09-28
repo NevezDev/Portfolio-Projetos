@@ -1,7 +1,3 @@
-Aqui está o README para o projeto de previsão de temperatura:
-
----
-
 # Previsão de Temperatura com Análise Sazonal
 
 Olá! Bem-vindo ao meu projeto de Previsão de Temperatura! 🌡️ Neste projeto, utilizei técnicas de análise de séries temporais para prever a temperatura média diária em Delhi, com base em dados históricos. O objetivo é entender padrões sazonais e facilitar previsões futuras.
