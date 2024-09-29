@@ -1,10 +1,10 @@
 # Previsão de Temperatura com Análise Sazonal
 
-Olá! Bem-vindo ao meu projeto de Previsão de Temperatura! 🌡️ Neste projeto, utilizei técnicas de análise de séries temporais para prever a temperatura média diária em Delhi, com base em dados históricos. O objetivo é entender padrões sazonais e facilitar previsões futuras.
+Bem-vindo ao meu projeto de Previsão de Temperatura. Neste projeto, utilizei técnicas de análise de séries temporais para prever a temperatura média diária em Delhi, com base em dados históricos.
 
 ## Conjunto de Dados
 
-O conjunto de dados utilizado neste projeto é o "DailyDelhiClimateTrain.csv", que contém informações diárias sobre temperatura, umidade, velocidade do vento e pressão atmosférica. Esses dados são fundamentais para analisarmos as tendências climáticas.
+O conjunto de dados utilizado neste projeto é o "DailyDelhiClimateTrain.csv", que contém informações diárias sobre temperatura, umidade, velocidade do vento e pressão atmosférica.
 
 ## Etapas do Projeto
 
@@ -17,14 +17,14 @@ Aqui está um resumo das etapas que segui neste projeto:
    - Extraí informações como ano, mês, dia e dia da semana.
 4. **Visualização Inicial**: Criei gráficos de linha para temperatura média, umidade, velocidade do vento e pressão média, facilitando a análise visual.
 5. **Decomposição Sazonal**: Realizei a decomposição sazonal da temperatura média, destacando componentes como tendência, sazonalidade e resíduos.
-6. **Análise de Correlação**: Gere gráficos de correlação para entender a relação entre as variáveis meteorológicas.
+6. **Análise de Correlação**: Gerei gráficos de correlação para entender a relação entre as variáveis meteorológicas.
 7. **Criação do Modelo**: Utilizei o Prophet para modelar a série temporal e fiz previsões para os dados futuros.
 8. **Avaliação do Modelo**: Calculei métricas como erro quadrático médio (MSE) e coeficiente de determinação (R²) para avaliar a precisão das previsões.
 9. **Visualização das Previsões**: Criei gráficos comparativos entre os valores observados e previstos para entender a eficácia do modelo.
 
 ## Tecnologias Utilizadas
 
-Para desenvolver este projeto, utilizei as seguintes tecnologias:
+Para desenvolver este projeto, utilizei:
 
 - Python
 - Pandas
@@ -40,28 +40,28 @@ Se você deseja experimentar, siga estes passos:
 
 1. Faça o download do conjunto de dados e do notebook.
 2. Abra o notebook no Google Colab ou em um ambiente Jupyter Notebook.
-3. Execute as células do notebook em sequência para ver o modelo em ação!
+3. Execute.
 
 ## Análise dos Gráficos
 
 ### 1. Gráficos de Linha para Variáveis Meteorológicas
 
-![Gráfico de Temperatura Média](Imagens/graficodelinhatemporal.png)
+![Gráfico de Temperatura Média](Imagens/tempmedia.png)
+![Gráfico de Umidade Média](Imagens/graficodelinhatemporal.png)
+![Gráfico de Velocidade Média](Imagens/velomedia.png)
+![Gráfico de Pressão Média](Imagens/pressaomedia.png)
 
 *Este gráfico mostra a variação da temperatura média ao longo do tempo, evidenciando tendências e padrões sazonais.*
 
-Temperatura Média
+Insights:
 
-Insight: Este gráfico mostra como a temperatura média varia ao longo do tempo. Podemos observar padrões sazonais, como temperaturas mais altas em determinados meses.
-Umidade Média
+Temperatura Média: Este gráfico mostra como a temperatura média muda ao longo do tempo. É possível notar padrões sazonais, como temperaturas mais altas em determinados meses, o que pode ser útil para planejar atividades.
 
-Insight: A umidade também exibe variações sazonais. A análise pode ajudar a entender a relação entre umidade e temperatura.
-Velocidade do Vento Média
+Umidade Média: A umidade também varia ao longo do ano. Analisar essas variações pode ajudar a entender como a umidade se relaciona com a temperatura, o que é importante para prever o clima.
 
-Insight: Este gráfico indica as oscilações na velocidade do vento, que podem ter implicações para a previsão do clima e atividades ao ar livre.
-Pressão Média
+Velocidade do Vento Média: Este gráfico mostra as mudanças na velocidade do vento. Essas oscilações são relevantes para a previsão do clima e podem impactar atividades ao ar livre, como esportes ou passeios.
 
-Insight: A pressão atmosférica pode indicar mudanças climáticas. Um gráfico estável sugere um padrão previsível, enquanto flutuações abruptas podem indicar tempestades.
+Pressão Média: A pressão atmosférica pode indicar mudanças no clima. Se o gráfico é estável, isso sugere um padrão previsível. No entanto, flutuações abruptas podem sinalizar a aproximação de tempestades.
 
 ### 2. Gráficos de Decomposição Sazonal
 
@@ -75,7 +75,7 @@ Insight: A decomposição mostra a tendência, a sazonalidade e o resíduo da te
 
 ![Mapa de Calor de Correlação](Imagens/corrtemp.png)
 
-*Este mapa de calor ilustra a correlação entre as variáveis meteorológicas, ajudando a identificar relações importantes que podem influenciar as previsões.*
+*Este mapa de calor ilustra a correlação entre as variáveis meteorológicas.*
 
 Insight: O mapa revela como as variáveis meteorológicas estão correlacionadas. Por exemplo, uma alta correlação entre temperatura e umidade sugere que, em meses quentes, a umidade tende a ser maior.
 
@@ -84,23 +84,12 @@ Insight: O mapa revela como as variáveis meteorológicas estão correlacionadas
 ![Previsão de Temperatura](Imagens/prevtemp.png)
 ![Previsão de Temperatura](Imagens/prev2temp.png)
 
-*Este gráfico compara os valores reais e previstos da temperatura, permitindo uma avaliação visual do desempenho do modelo.*
+*Esses gráficos comparam os valores reais e previstos da temperatura.*
 
-Insight: Este gráfico compara os valores reais com as previsões do modelo. O ajuste do modelo pode ser avaliado pela proximidade das linhas. Um modelo bem ajustado deve apresentar previsões que seguem a tendência observada nos dados históricos.
+Insight: Esse gráfico mostra como as previsões do nosso modelo se comparam com os valores reais. Se as linhas estão bem próximas, isso significa que nosso modelo está fazendo um bom trabalho ao capturar a tendência dos dados.
 
-Insight: Aqui, podemos avaliar como o modelo performa em dados não vistos. Uma boa previsão sugere que o modelo generaliza bem, enquanto desvios significativos indicam a necessidade de ajustes.
-
-## Observações
-
-- A modelagem de séries temporais é complexa e os resultados podem variar. Experimentar diferentes modelos e técnicas de pré-processamento pode levar a previsões melhores.
-- Sempre considere o contexto dos dados ao interpretar os resultados.
+Insight: Aqui, nós conseguimos ver como o modelo se sai com dados novos, aqueles que ele nunca viu antes. Se as previsões estiverem boas, isso é um sinal de que o modelo está entendendo bem os padrões.
 
 ## Contribuições
 
 Estou aberto a contribuições! Se você tiver sugestões ou melhorias, fique à vontade para abrir issues ou pull requests.
-
-Este projeto demonstra como a análise de dados e técnicas de modelagem podem ser aplicadas para entender e prever padrões climáticos. Vamos explorar juntos o fascinante mundo da ciência de dados! 🌟
-
---- 
-
-Se precisar de ajustes ou mais informações, é só avisar!
