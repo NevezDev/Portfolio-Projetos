@@ -43,9 +43,11 @@ Se você quiser experimentar, siga estes passos simples:
 
 ### 1. Gráfico de Dispersão: Preços Reais vs. Preços Previstas
 
-![Atual vs Previsto](Imagens/atual_vs_previsto.png)
+![Atual vs Previsto](Imagens/realeprevistolr.png)
 
 *Este gráfico ilustra a relação entre os preços reais e os preços previstos pelo modelo, permitindo uma visualização clara da precisão das previsões.*
+
+Insight: Idealmente, os pontos neste gráfico devem se alinhar em torno de uma linha reta, o que indicaria uma correspondência perfeita entre as previsões e os valores reais. No entanto, qualquer desvio significativo sugere que o modelo pode não estar capturando completamente a relação entre as características e o preço. Além disso, a dispersão de pontos pode sugerir possíveis outliers ou a necessidade de ajustar melhor o modelo para certos segmentos do mercado de carros.
 
 ## Observações
 
