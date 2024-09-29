@@ -1,10 +1,10 @@
-# Limpeza e Tratamento de Dados para Regressão Logística
+# Limpeza e Tratamento de Dados/ Regressão Logística
 
-Olá! Bem-vindo ao meu projeto de Limpeza e Tratamento de Dados para Regressão Logística! 📊 Como um cientista de dados júnior, estou animado para compartilhar como preparei um conjunto de dados para prever o churn de clientes usando regressão logística. O objetivo aqui é transformar os dados brutos em um formato que possa ser utilizado para análise e modelagem.
+Bem-vindo ao meu projeto de Limpeza e Tratamento de Dados/Regressão Logística. O objetivo é prever o churn de clientes usando regressão logística.
 
 ## Conjunto de Dados
 
-O conjunto de dados utilizado contém informações sobre clientes, como pontuação, estado, gênero, idade, patrimônio e saldo. Esses dados são essenciais para entender o perfil dos clientes e prever se eles deixarão a empresa.
+O conjunto de dados utilizado contém informações sobre clientes, como pontuação, estado, gênero, idade, patrimônio e saldo. 
 
 ## Etapas do Projeto
 
@@ -22,7 +22,7 @@ Aqui está um resumo das etapas que segui neste projeto:
 
 ## Tecnologias Utilizadas
 
-Para desenvolver este projeto, utilizei várias tecnologias úteis:
+Para desenvolver este projeto, utilizei:
 
 - Python
 - Pandas
@@ -34,11 +34,11 @@ Para desenvolver este projeto, utilizei várias tecnologias úteis:
 
 ## Como Executar o Projeto
 
-Se você quiser experimentar, siga estes passos simples:
+Se você quiser experimentar, siga estes passos:
 
 1. Faça o download do conjunto de dados e do notebook.
 2. Abra o notebook no Google Colab ou em um ambiente Jupyter Notebook.
-3. Execute as células do notebook em sequência e veja o modelo em ação!
+3. Execute.
 
 ## Análise dos Gráficos
 
@@ -48,9 +48,14 @@ Se você quiser experimentar, siga estes passos simples:
 
 *Este gráfico ilustra a relação entre a idade e o saldo dos clientes, ajudando a visualizar a distribuição do churn.*
 
-Insights:
-Pode revelar como o saldo e a idade interagem, indicando se clientes mais velhos com maior saldo têm menos chances de churn, ou vice-versa.
-Uma concentração de pontos em certas áreas pode indicar perfis de clientes mais propensos ao churn.
+
+Aqui está a versão mais simples e direta desse insight:
+
+Insight:
+
+Esse gráfico pode mostrar como saldo e idade se relacionam com o churn. Por exemplo, ele pode indicar se clientes mais velhos e com saldo maior têm menos chances de sair, ou o contrário.
+
+Se houver uma concentração de pontos em certas áreas, isso pode ajudar a identificar perfis de clientes que têm maior chance de churn.
 
 ### 2. Gráficos de Pizza: Distribuição de Churn por Faixa Etária e Saldo
 
@@ -58,23 +63,15 @@ Uma concentração de pontos em certas áreas pode indicar perfis de clientes ma
 ![Distribuição de Churn](Imagens/grafpizzalogsaldo.png)
 
 
-*Esses gráficos mostram a distribuição de clientes que saíram ou não, segmentados por faixas etárias e saldo, oferecendo insights valiosos para estratégias de retenção.*
+*Esses gráficos mostram a distribuição de clientes que saíram ou não, segmentados por faixas etárias e saldo.*
 
 Insights:
-Identifica qual faixa etária apresenta maior rotatividade, ajudando na personalização de estratégias de retenção.
-Por exemplo, se a faixa <30% mostra uma alta taxa de churn, isso pode indicar a necessidade de intervenções específicas para essa demografia.
 
-Insights:
-Permite entender se o saldo dos clientes impacta suas decisões de sair ou permanecer.
-Se clientes com saldo >100.000 apresentam baixas taxas de churn, isso pode indicar que clientes mais ricos tendem a ser mais leais.
+1 - O gráfico ajuda a identificar qual faixa etária tem maior rotatividade. Isso é útil para personalizar estratégias de retenção. Por exemplo, se a faixa abaixo de 30 anos mostra uma alta taxa de churn, pode ser necessário implementar ações específicas para esse grupo.
 
-## Observações
-
-- O modelo é um ponto de partida! Ajustes em hiperparâmetros e a inclusão de mais características podem melhorar a performance.
-- É importante analisar criticamente os resultados e o contexto ao interpretar as previsões.
+2 - Também permite entender como o saldo dos clientes impacta suas decisões de sair ou ficar. Se os clientes com saldo acima de 100.000 têm baixas taxas de churn, isso pode indicar que clientes mais ricos tendem a ser mais leais à empresa.
 
 ## Contribuições
 
 Estou aberto a contribuições! Se você tiver sugestões ou melhorias, sinta-se à vontade para abrir issues ou pull requests.
 
-Este projeto é um exemplo de como a limpeza e o tratamento de dados são essenciais na construção de modelos preditivos. As técnicas e ferramentas aqui apresentadas podem ser úteis para outros problemas de classificação. Vamos explorar juntos o universo da ciência de dados! 🌟
