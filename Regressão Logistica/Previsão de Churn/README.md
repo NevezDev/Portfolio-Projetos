@@ -44,15 +44,29 @@ Se você quiser experimentar, siga estes passos simples:
 
 ### 1. Gráfico de Dispersão: Idade vs. Saldo
 
-![Dispersão](Imagens/dispersao.png)
+![Dispersão](Imagens/scatterplotlog.png)
 
 *Este gráfico ilustra a relação entre a idade e o saldo dos clientes, ajudando a visualizar a distribuição do churn.*
 
+Insights:
+Pode revelar como o saldo e a idade interagem, indicando se clientes mais velhos com maior saldo têm menos chances de churn, ou vice-versa.
+Uma concentração de pontos em certas áreas pode indicar perfis de clientes mais propensos ao churn.
+
 ### 2. Gráficos de Pizza: Distribuição de Churn por Faixa Etária e Saldo
 
-![Distribuição de Churn](Imagens/churn.png)
+![Distribuição de Churn](Imagens/grafpizzalogidade.png)
+![Distribuição de Churn](Imagens/grafpizzalogsaldo.png)
+
 
 *Esses gráficos mostram a distribuição de clientes que saíram ou não, segmentados por faixas etárias e saldo, oferecendo insights valiosos para estratégias de retenção.*
+
+Insights:
+Identifica qual faixa etária apresenta maior rotatividade, ajudando na personalização de estratégias de retenção.
+Por exemplo, se a faixa <30% mostra uma alta taxa de churn, isso pode indicar a necessidade de intervenções específicas para essa demografia.
+
+Insights:
+Permite entender se o saldo dos clientes impacta suas decisões de sair ou permanecer.
+Se clientes com saldo >100.000 apresentam baixas taxas de churn, isso pode indicar que clientes mais ricos tendem a ser mais leais.
 
 ## Observações
 
