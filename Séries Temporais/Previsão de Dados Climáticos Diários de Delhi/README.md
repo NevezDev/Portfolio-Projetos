@@ -46,27 +46,49 @@ Se você deseja experimentar, siga estes passos:
 
 ### 1. Gráficos de Linha para Variáveis Meteorológicas
 
-![Gráfico de Temperatura Média](Imagens/grafico_temp_media.png)
+![Gráfico de Temperatura Média](Imagens/graficodelinhatemporal.png)
 
 *Este gráfico mostra a variação da temperatura média ao longo do tempo, evidenciando tendências e padrões sazonais.*
 
+Temperatura Média
+
+Insight: Este gráfico mostra como a temperatura média varia ao longo do tempo. Podemos observar padrões sazonais, como temperaturas mais altas em determinados meses.
+Umidade Média
+
+Insight: A umidade também exibe variações sazonais. A análise pode ajudar a entender a relação entre umidade e temperatura.
+Velocidade do Vento Média
+
+Insight: Este gráfico indica as oscilações na velocidade do vento, que podem ter implicações para a previsão do clima e atividades ao ar livre.
+Pressão Média
+
+Insight: A pressão atmosférica pode indicar mudanças climáticas. Um gráfico estável sugere um padrão previsível, enquanto flutuações abruptas podem indicar tempestades.
+
 ### 2. Gráficos de Decomposição Sazonal
 
-![Decomposição Sazonal](Imagens/grafico_decomposicao.png)
+![Decomposição Sazonal](Imagens/decomptemp.png)
 
 *Aqui, visualizamos a decomposição da temperatura média em componentes de tendência, sazonalidade e resíduos, permitindo uma análise mais profunda dos padrões.*
 
+Insight: A decomposição mostra a tendência, a sazonalidade e o resíduo da temperatura média. Isso permite identificar se as variações são sazonais ou se há uma tendência de longo prazo.
+
 ### 3. Gráficos de Correlação
 
-![Mapa de Calor de Correlação](Imagens/grafico_correlacao.png)
+![Mapa de Calor de Correlação](Imagens/corrtemp.png)
 
 *Este mapa de calor ilustra a correlação entre as variáveis meteorológicas, ajudando a identificar relações importantes que podem influenciar as previsões.*
 
+Insight: O mapa revela como as variáveis meteorológicas estão correlacionadas. Por exemplo, uma alta correlação entre temperatura e umidade sugere que, em meses quentes, a umidade tende a ser maior.
+
 ### 4. Gráficos de Previsão
 
-![Previsão de Temperatura](Imagens/grafico_previsao.png)
+![Previsão de Temperatura](Imagens/prevtemp.png)
+![Previsão de Temperatura](Imagens/prev2temp.png)
 
 *Este gráfico compara os valores reais e previstos da temperatura, permitindo uma avaliação visual do desempenho do modelo.*
+
+Insight: Este gráfico compara os valores reais com as previsões do modelo. O ajuste do modelo pode ser avaliado pela proximidade das linhas. Um modelo bem ajustado deve apresentar previsões que seguem a tendência observada nos dados históricos.
+
+Insight: Aqui, podemos avaliar como o modelo performa em dados não vistos. Uma boa previsão sugere que o modelo generaliza bem, enquanto desvios significativos indicam a necessidade de ajustes.
 
 ## Observações
 
