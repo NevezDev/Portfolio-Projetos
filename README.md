@@ -1,5 +1,5 @@
 # 📊 Portfólio de Ciência de Dados
-Bem-vindo ao meu portfólio! Este repositório contém uma coleção de projetos que demonstram minhas habilidades em análise de dados, modelagem preditiva e aprendizado de máquina. Fiz uma breve descrição de cada projeto incluído.
+Bem-vindo ao meu portfólio! Meu nome é Sérgio Medeiros Neves, tenho 21 anos e tenho o objetivo de me tornar um grande profissional na área de dados. Este repositório contém uma coleção de projetos que demonstram minhas habilidades em análise de dados, modelagem preditiva e aprendizado de máquina. Fiz uma breve descrição de cada projeto incluído.
 
 # 🌟 Projetos
 **1. [Previsão de Preço de Carros](Regressão%20Linear/Car%20Price%20Prediction) (Regressão Linear)** 
