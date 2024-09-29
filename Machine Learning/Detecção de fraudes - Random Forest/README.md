@@ -45,15 +45,25 @@ Se você quiser experimentar, siga estes passos simples:
 
 ### 1. Curva de Precisão-Recall
 
-![Curva de Precisão-Recall](Imagens/curva_precisao_recall.png)
+![Curva de Precisão-Recall](Imagens/precisaorecallmachine.png)
 
 *Este gráfico mostra a relação entre precisão e recall, ajudando a entender o desempenho do modelo em diferentes limiares de classificação.*
 
+Insights:
+A área sob a curva (AUC) fornece uma medida geral de desempenho do modelo. Um AUC mais alto indica um modelo mais eficiente em identificar fraudes (classe positiva) sem aumentar excessivamente os falsos positivos.
+Se o modelo apresentar um bom equilíbrio entre precisão e recall, isso sugere que ele é eficaz em prever fraudes sem gerar muitas classificações incorretas como fraude.
+
 ### 2. Matriz de Confusão
 
-![Matriz de Confusão](Imagens/confmatrix.png)
+![Matriz de Confusão](Imagens/matrizmachine.png)
 
 *Aqui temos a matriz de confusão, que ilustra a performance do modelo, mostrando quantas previsões foram corretas e incorretas em cada classe.*
+
+Insights:
+O número de verdadeiros positivos (TP) indica quantas fraudes foram corretamente identificadas.
+Falsos positivos (FP) revelam o número de transações normais incorretamente classificadas como fraudulentas, o que pode gerar desconfiança entre os clientes.
+A análise dos valores em cada quadrante ajuda a entender a eficácia do modelo e a necessidade de ajustes, como a alteração do limiar de decisão ou a reavaliação do balanceamento das classes.
+
 
 ## Observações
 
