@@ -1,10 +1,10 @@
 # Previsão dos Preços de Carros Usando Regressão Linear
 
-Olá! Bem-vindo ao meu projeto de Previsão dos Preços de Carros! 🚗 Como um cientista de dados júnior, estou animado para compartilhar como utilizei regressão linear para prever os preços de carros com base em várias características. O objetivo aqui é desenvolver um modelo que ajude a entender quais fatores influenciam o preço dos veículos.
+Bem-vindo ao meu projeto de Previsão dos Preços de Carros. O objetivo é desenvolver um modelo que ajude a entender quais fatores influenciam o preço dos veículos.
 
 ## Conjunto de Dados
 
-O conjunto de dados utilizado contém informações sobre diferentes carros, incluindo características como tipo de motor, localização do motor, sistema de combustível e outros fatores relevantes. Essas informações são essenciais para treinar um modelo de previsão eficaz.
+O conjunto de dados utilizado contém informações sobre diferentes carros, incluindo características como tipo de motor, localização do motor, sistema de combustível e outros fatores relevantes. 
 
 ## Etapas do Projeto
 
@@ -15,14 +15,14 @@ Aqui está um resumo das etapas que segui neste projeto:
    - Realizei o one-hot encoding para variáveis categóricas.
    - Visualizei a correlação entre as características e o preço, identificando as mais importantes.
    - Removi colunas com pouco valor preditório.
-3. **Divisão dos Dados**: Separei os dados em conjuntos de treinamento e teste, garantindo uma divisão equilibrada.
+3. **Divisão dos Dados**: Separei os dados em conjuntos de treinamento e teste.
 4. **Construção do Modelo**: Utilizei o `LinearRegression` da biblioteca Scikit-learn para criar e treinar o modelo.
 5. **Avaliação do Modelo**: Avaliei o desempenho do modelo com métricas como MAE, MSE e R².
 6. **Visualização de Resultados**: Criei gráficos para comparar os preços reais com os previstos, ajudando a entender a eficácia do modelo.
 
 ## Tecnologias Utilizadas
 
-Para desenvolver este projeto, utilizei várias tecnologias úteis:
+Para desenvolver este projeto, utilizei:
 
 - Python
 - Pandas
@@ -33,11 +33,11 @@ Para desenvolver este projeto, utilizei várias tecnologias úteis:
 
 ## Como Executar o Projeto
 
-Se você quiser experimentar, siga estes passos simples:
+Se você quiser experimentar, siga estes passos:
 
 1. Faça o download do conjunto de dados e do notebook.
 2. Abra o notebook no Google Colab ou em um ambiente Jupyter Notebook.
-3. Execute as células do notebook em sequência e veja o modelo em ação!
+3. Execute.
 
 ## Análise dos Gráficos
 
@@ -45,17 +45,14 @@ Se você quiser experimentar, siga estes passos simples:
 
 ![Atual vs Previsto](Imagens/realeprevistolr.png)
 
-*Este gráfico ilustra a relação entre os preços reais e os preços previstos pelo modelo, permitindo uma visualização clara da precisão das previsões.*
+*Este gráfico ilustra a relação entre os preços reais e os preços previstos pelo modelo.*
 
-Insight: Idealmente, os pontos neste gráfico devem se alinhar em torno de uma linha reta, o que indicaria uma correspondência perfeita entre as previsões e os valores reais. No entanto, qualquer desvio significativo sugere que o modelo pode não estar capturando completamente a relação entre as características e o preço. Além disso, a dispersão de pontos pode sugerir possíveis outliers ou a necessidade de ajustar melhor o modelo para certos segmentos do mercado de carros.
+Insight:
 
-## Observações
+O ideal é que os pontos desse gráfico se alinhem em torno de uma linha reta, mostrando que as previsões estão próximas dos valores reais. Se houver desvios grandes, isso significa que o modelo não está capturando bem a relação entre os dados e o preço dos carros.
 
-- O modelo é um ponto de partida! Ele pode ser aprimorado com ajustes em hiperparâmetros e a inclusão de mais características.
-- Sempre analise criticamente os resultados e leve em consideração o contexto ao interpretar as previsões.
+Além disso, se os pontos estiverem muito espalhados, pode indicar a presença de outliers ou que o modelo precisa ser ajustado melhor para certos tipos de carros.
 
 ## Contribuições
 
 Estou aberto a contribuições! Se você tiver sugestões ou melhorias, sinta-se à vontade para abrir issues ou pull requests.
-
-Este projeto é um exemplo de como a regressão linear pode ser aplicada na previsão de preços de carros. As técnicas e ferramentas aqui apresentadas podem ser úteis para outros problemas de regressão. Vamos explorar juntos o universo da ciência de dados! 🌟
