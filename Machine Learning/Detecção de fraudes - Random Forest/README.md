@@ -1,10 +1,10 @@
 # Previsão de Fraude em Transações de Cartão de Crédito com Random Forest
 
-Olá! Bem-vindo ao meu projeto de Previsão de Fraude em Transações de Cartão de Crédito! 🚀 Como um cientista de dados júnior, estou animado para compartilhar como utilizei um modelo de Random Forest para detectar transações fraudulentas, ajudando a proteger usuários e instituições financeiras.
+Bem-vindo ao meu projeto de Previsão de Fraude em Transações de Cartão de Crédito! 🚀 Como um cientista de dados júnior, quero compartilhar como utilizei um modelo de Random Forest para detectar transações fraudulentas.
 
 ## Conjunto de Dados
 
-O conjunto de dados utilizado contém informações sobre transações de cartão de crédito, com um foco especial na identificação de transações fraudulentas. As características incluídas permitem uma análise abrangente do comportamento dos usuários.
+O conjunto de dados utilizado contém informações sobre transações de cartão de crédito, com um foco especial na identificação de transações fraudulentas.
 
 ## Etapas do Projeto
 
@@ -12,8 +12,8 @@ Aqui está um resumo das etapas que segui neste projeto:
 
 1. **Exploração de Dados**: Realizei uma análise descritiva e visualizei dados para entender melhor a estrutura do conjunto.
 2. **Preparação de Dados**: 
-   - Dividi os dados em features (variáveis independentes) e target (variável dependente).
-   - Realizei a divisão do conjunto em treinamento e teste, garantindo uma distribuição balanceada das classes.
+   - Dividi os dados em features e target.
+   - Realizei a divisão do conjunto em treinamento e teste.
 3. **Construção do Modelo**: 
    - Utilizei o RandomForestClassifier com pesos balanceados para lidar com o desbalanceamento das classes.
 4. **Treinamento do Modelo**: 
@@ -25,7 +25,7 @@ Aqui está um resumo das etapas que segui neste projeto:
 
 ## Tecnologias Utilizadas
 
-Para desenvolver este projeto, utilizei várias tecnologias úteis:
+Para desenvolver este projeto, utilizei:
 
 - Python
 - Pandas
@@ -35,11 +35,11 @@ Para desenvolver este projeto, utilizei várias tecnologias úteis:
 
 ## Como Executar o Projeto
 
-Se você quiser experimentar, siga estes passos simples:
+Se você quiser experimentar, siga estes passos:
 
 1. Faça o download do conjunto de dados e do notebook.
-2. Abra o notebook no Google Colab ou em um ambiente Jupyter Notebook.
-3. Execute as células do notebook em sequência e veja o modelo em ação!
+2. Abra o notebook no Google Colab ou no Jupyter Notebook.
+3. Execute.
 
 ## Análise dos Gráficos
 
@@ -47,31 +47,33 @@ Se você quiser experimentar, siga estes passos simples:
 
 ![Curva de Precisão-Recall](Imagens/precisaorecallmachine.png)
 
-*Este gráfico mostra a relação entre precisão e recall, ajudando a entender o desempenho do modelo em diferentes limiares de classificação.*
+*Este gráfico mostra a relação entre precisão e recall, ajudando a entender o desempenho do modelo.*
 
 Insights:
-A área sob a curva (AUC) fornece uma medida geral de desempenho do modelo. Um AUC mais alto indica um modelo mais eficiente em identificar fraudes (classe positiva) sem aumentar excessivamente os falsos positivos.
-Se o modelo apresentar um bom equilíbrio entre precisão e recall, isso sugere que ele é eficaz em prever fraudes sem gerar muitas classificações incorretas como fraude.
+
+A área sob a curva (AUC) mostra como o modelo está indo no geral. Quanto maior for o AUC, melhor o modelo é em identificar fraudes (classe positiva) sem marcar coisas erradas como fraude.
+
+Se o modelo consegue manter um bom equilíbrio entre precisão (quando acerta) e recall (quando encontra a fraude), isso significa que ele está identificando fraudes sem exagerar nas classificações erradas, o que é ótimo.
 
 ### 2. Matriz de Confusão
 
 ![Matriz de Confusão](Imagens/matrizmachine.png)
 
-*Aqui temos a matriz de confusão, que ilustra a performance do modelo, mostrando quantas previsões foram corretas e incorretas em cada classe.*
+*A matriz de confusão mostra quantas previsões foram corretas e incorretas em cada classe.*
+
+
+Aqui está uma versão mais simples e humana:
 
 Insights:
-O número de verdadeiros positivos (TP) indica quantas fraudes foram corretamente identificadas.
-Falsos positivos (FP) revelam o número de transações normais incorretamente classificadas como fraudulentas, o que pode gerar desconfiança entre os clientes.
-A análise dos valores em cada quadrante ajuda a entender a eficácia do modelo e a necessidade de ajustes, como a alteração do limiar de decisão ou a reavaliação do balanceamento das classes.
 
+Os verdadeiros positivos (TP) mostram quantas fraudes o modelo acertou em identificar.
 
-## Observações
+Os falsos positivos (FP) indicam quantas transações normais foram classificadas como fraudes por engano, o que pode causar preocupação nos clientes.
 
-- O modelo é um ponto de partida! Ele pode ser aprimorado com ajustes em hiperparâmetros e técnicas de pré-processamento.
-- É importante analisar criticamente os resultados e considerar o contexto ao interpretar as previsões.
+Olhar para esses números nos ajuda a ver o quão bem o modelo está funcionando e se precisamos fazer ajustes, como mudar o limite de decisão ou equilibrar melhor as classes.
+
 
 ## Contribuições
 
 Estou aberto a contribuições! Se você tiver sugestões ou melhorias, sinta-se à vontade para abrir issues ou pull requests.
-
-Este projeto é um exemplo de como algoritmos de aprendizado de máquina podem ser aplicados na detecção de fraudes. As técnicas e ferramentas aqui apresentadas podem ser úteis para outros problemas de classificação binária. Vamos explorar juntos o universo da ciência de dados! 🌟
+🌟
